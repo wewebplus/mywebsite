@@ -15,8 +15,8 @@ services:
         ports: 
             - "3306:3306"
         environment:
-            MYSQL_DATABASE: myDb
-            MYSQL_USER: user
+            MYSQL_DATABASE: 183.88.224.221
+            MYSQL_USER:  wewebcloud.com
             MYSQL_PASSWORD: test
             MYSQL_ROOT_PASSWORD: test
         volumes:
