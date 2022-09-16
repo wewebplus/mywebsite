@@ -11,6 +11,8 @@
             "email": "hello@codecov.io"
         }
     ],
+
+    
     "require": {
         "php": ">=7.2"
     },
