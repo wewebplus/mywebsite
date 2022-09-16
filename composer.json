@@ -1,16 +1,6 @@
 {
     "name": "codecov/codecov-php",
-    "type": "library",
-    "license": "MIT",
-    "homepage": "https://github.com/codecov/codecov-php",
-    "description": "demo repo",
-    "keywords": ["code coverage", "codecov", "coverage reports"],
-    "authors": [
-        {
-            "name": "codecov.io",
-            "email": "hello@codecov.io"
-        }
-    ],
+
     "require": {
         "php": ">=7.2"
     },
