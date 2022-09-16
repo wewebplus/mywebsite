@@ -1,34 +1,25 @@
 {
-  "name": "webphp",
-  "type": "project",
-  "description": "starter app",
-  "homepage": "https://codeigniter.com",
-  "license": "MIT",
-  "require": {
-    "php": ">=7.2",
-    "codeigniter4/framework": "4.0.4",
-    "guzzlehttp/guzzle": "7.0",
-    "paragonie/csp-builder": "^2.4",
-    "elasticsearch/elasticsearch": "^7.9",
-    "hybridauth/hybridauth": "^3.5",
-    "benz3d/php-rss-feed": "^1.0",
-    "ext-zip": "*",
-    "ext-json": "*"
-  },
-  "require-dev": {
-    "fzaninotto/faker": "^1.9@dev",
-    "mikey179/vfsstream": "1.6.*",
-    "phpunit/phpunit": "^8.5"
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Tests\\Support\\": "tests/_support"
-    }
-  },
-  "scripts": {
-    "post-update-cmd": [
-      "@composer dump-autoload"
+    "name": "codecov/codecov-php",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/codecov/codecov-php",
+    "description": "demo repo",
+    "keywords": ["code coverage", "codecov", "coverage reports"],
+    "authors": [
+        {
+            "name": "codecov.io",
+            "email": "hello@codecov.io"
+        }
     ],
-    "test": "phpunit"
-  }
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~8.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Example": "src/"
+        }
+    }
 }
